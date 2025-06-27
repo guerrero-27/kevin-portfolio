@@ -1,5 +1,5 @@
 {
-  "homepage": "https://guerrero-27.github.io/kevinPortfolio",
+  "homepage": "https://guerrero-27.github.io/kevin-portfolio/",
   "name": "my-react-portfolio-2025",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --repo=https://github.com/guerrero-27/kevinPortfolio.git",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
