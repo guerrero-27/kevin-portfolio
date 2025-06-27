@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy":"npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/guerrero-27/kevinPortfolio.git",
+    "deploy": "gh-pages -d dist --repo=https://github.com/guerrero-27/kevinPortfolio.git",
     "lint": "eslint .",
     "preview": "vite preview"
   },
