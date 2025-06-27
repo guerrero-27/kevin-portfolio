@@ -90,14 +90,11 @@ const Services = () => {
     <div id='faqs' className="w-full md:px-[10%] py-5 px-4">
       <div className="mb-8 text-center">
         <h1 className="text-[25px] font-bold md:text-[30px] font-monserat">FAQs – Working with Me</h1>
-        <motion.p
-        variants={fadeIn("right", 0.2)}
-                    initial="hidden"
-                    whileInView={"show"}
-                    viewport={{ once: false, amount: 0.7 }}
+        <p
+
         className="text-gray-500 mt-2 max-w-2xl mx-auto">
           Quick answers to common questions about my process, timelines, and services.
-        </motion.p>
+        </p>
       </div>
 
       <div className="flex flex-col gap-4">
