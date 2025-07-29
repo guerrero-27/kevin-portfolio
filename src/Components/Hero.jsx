@@ -147,7 +147,7 @@ const Hero = () => {
               <p className="md:ml-2 md:w-[100px] text-slate-400 text-[13px] md:text-[14px] lg:text-[15px]">Years of Experience</p>
             </div>
             <div className="flex flex-col items-center md:flex-row">
-              <AnimatedCounter end={100} suffix="+" className="text-[38px] md:text-[35px] lg:text-[60px]" />
+              <AnimatedCounter end={20} suffix="+" className="text-[38px] md:text-[35px] lg:text-[60px]" />
               <p className="md:ml-2 md:w-[100px] text-slate-400 text-[13px] md:text-[14px] lg:text-[15px]">Projects Completed</p>
             </div>
             <div className="flex flex-col items-center md:flex-row">
@@ -155,7 +155,7 @@ const Hero = () => {
               <p className="md:ml-2 md:w-[100px] text-slate-400 text-[13px] md:text-[14px] lg:text-[15px]">Satisfied Users</p>
             </div>
             <div className="flex flex-col items-center md:flex-row">
-              <AnimatedCounter end={20} className="text-[38px] md:text-[35px] lg:text-[60px]" />
+              <AnimatedCounter end={3} className="text-[38px] md:text-[35px] lg:text-[60px]" />
               <p className="md:ml-2 md:w-[100px] text-slate-400 text-[13px] md:text-[14px] lg:text-[15px]">Industries Served</p>
             </div>
           </div>
